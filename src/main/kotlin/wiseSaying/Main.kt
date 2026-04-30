@@ -8,9 +8,11 @@ fun main() {
         print("명령) ")
 
         val input = readln()
-        if(input == "종료"){
-            println("프로그램을 종료합니다.")
-            break
+        when (input) {
+            "종료" -> {
+                println("프로그램을 종료합니다.")
+                break
+            }
         }
     }
 }
